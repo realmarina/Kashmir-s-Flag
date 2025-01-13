@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+/* Styling for the SVG group element */
+#star-crescent {
+    fill: #ffffff; /* White color for the crescent and star */
+    stroke: #000000; /* Black stroke */
+    stroke-width: 0.9; /* Stroke width */
+  }
+  
+  /* Styling for the crescent shape */
+  #crescent {
+    fill: #ffffff; /* White color for the crescent */
+    stroke: #000000; /* Optional black stroke */
+  }
+  
+  /* Styling for the star shape */
+  #star {
+    fill: #ffffff; /* White color for the star */
+    stroke: #000000; /* Optional black stroke */
+  }
+  
+/* General flag container */
+#flag {
+    width: 300px;
+    background-color: green;
+  
+}
+/* Orange box at the top-left */
+#orange-box {
+    height: 65px;
+    width: 150px;
+    background-color: orange;
+    border: none;
+}
+
+/* Green stripes */
+#green-stripe-1,
+#green-stripe-2,
+#green-stripe-3,
+#green-stripe-4,
+#green-stripe-5 {
+    height: 15px;
+    width: 300px;
+    background-color: green;
+}
+
+/* White stripes */
+#white-stripe-1,
+#white-stripe-2,
+#white-stripe-3,
+#white-stripe-4 {
+    height: 15px;
+    width: 300px;
+    background-color: white;
+}
+h1{
+    text-align: end;
+}
+#h1{
+    text-align: under;
+}
